@@ -1,0 +1,22 @@
+{
+  "name": "browsertc",
+  "version": "0.0.1",
+  "description": "Sharing data via WebRTC",
+  "author": {
+    "name": "Filip Stanis",
+    "email": "filip@stanis.me",
+    "url": "https://stanis.me"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --public-url /browsertc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^10.19.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.23.4",
+    "parcel": "^2.11.0"
+  }
+}
